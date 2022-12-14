@@ -1,0 +1,68 @@
+.contenedor{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+
+.iframe{
+    width: 100%;
+    height: 78vh;
+}
+.formulario{
+    position: absolute;
+    bottom: 10px;
+    background-color: bisque;
+    width: 30%;
+    padding: 15px 15px;
+}
+.formtex{
+    font-size: 20px;
+    margin: 25px auto;
+    text-align: center;
+    color: rgb(241, 13, 13);
+
+}
+
+.item-1, .item-2{
+    width: 95%;
+    height: 45px;
+    margin: 7px auto;
+    outline: none;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.item-3{
+    width: 98%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+
+
+}
+.textarea{width: 98%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+    resize: none;
+}
+    
+.submit{
+    width: 30%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    background-color: rgb(130, 131, 133);
+   
+}

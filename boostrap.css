@@ -1,0 +1,11 @@
+
+.navbar-brand:hover{
+    background-color: grey;
+    color: black;
+
+}
+.nav-link:hover{
+    background-color: grey;
+    color: black;
+}
+/*al original le agregamos que cambie el color del boton y las letras, solo muestro que lo se usar, no tuve tiempo de usarlo*/
